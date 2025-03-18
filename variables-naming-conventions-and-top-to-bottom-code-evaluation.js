@@ -28,7 +28,10 @@ let nameSelected = "Alice";
 //Changed letter variables to num1 and num2 because there are 2 numbers and it is slightly more descriptive
 let num1 = 5;
 let num2 = 20;
+// I made variables for the items and added them into the sentence
+let item1 = "Ice Cream"
+let item2 = "Sunglasses"
 //changed variable to my sentence because it is concatenating all the other variables to make a full sentence
-let mySentence = nameSelected + " bought " + num1 + " items for $" + num2 + ".";
+let mySentence = nameSelected + " bought " + num1 + " items for $" + num2 + ". They were " + item1 + " and " + item2;
 
 console.log(mySentence);
