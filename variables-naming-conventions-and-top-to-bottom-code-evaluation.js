@@ -24,9 +24,9 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let nameSelected = "Alice";
+let num1 = 5;
+let num2 = 20;
+let mySentence = nameSelected + " bought " + num1 + " items for $" + num2 + ".";
 
 console.log(d);
