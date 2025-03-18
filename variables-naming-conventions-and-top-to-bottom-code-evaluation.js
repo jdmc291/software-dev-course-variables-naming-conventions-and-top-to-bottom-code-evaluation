@@ -23,10 +23,12 @@ Things to reflect on:
   - How do clear variable names benefit team collaboration?
   
 */
-
+//Changed letter variable to nameSelected due to it being more descriptive
 let nameSelected = "Alice";
+//Changed letter variables to num1 and num2 because there are 2 numbers and it is slightly more descriptive
 let num1 = 5;
 let num2 = 20;
+//changed variable to my sentence because it is concatenating all the other variables to make a full sentence
 let mySentence = nameSelected + " bought " + num1 + " items for $" + num2 + ".";
 
-console.log(d);
+console.log(mySentence);
